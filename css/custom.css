@@ -1,0 +1,20 @@
+.aplayer.aplayer-fixed {
+    border-radius: 16px !important;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.aplayer.aplayer-fixed:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* 展开栏透明 */
+.aplayer.aplayer-fixed .aplayer-miniswitcher {
+    background: transparent !important;
+}
+
+.aplayer.aplayer-fixed .aplayer-miniswitcher .aplayer-icon svg {
+    fill: rgba(255, 255, 255, 0.8) !important;
+}
